@@ -1,10 +1,1 @@
-# Define the necessary packages as a multi-line string
-requirements = """\
-streamlit
-pandas
-scikit-learn
-"""
 
-# Write the requirements to a file
-with open('requirements.txt', 'w') as f:
-    f.write(requirements)
