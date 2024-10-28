@@ -1,9 +1,9 @@
 # Let's create a requirements.txt file with the necessary packages for the Streamlit app
-requirements =
+requirements = '''
 streamlit
 pandas
 scikit-learn
-
+'''
 
 # Write the requirements to a file
 with open('requirements.txt', 'w') as f:
